@@ -1,0 +1,23 @@
+{
+    "name": "virus/openai",
+    "autoload": {
+        "psr-4": {
+            "Virus\\Openai\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "qubadoff",
+            "email": "siyaset007@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0",
+        "openai-php/client": "^0.4.2"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
